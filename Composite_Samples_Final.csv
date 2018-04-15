@@ -1,0 +1,94 @@
+Sample ID,Time,Title,Column,Period,Treatment,TKN,TAN,NO3,DOC,TC,
+Col 1 3/29 ,after,Immediately after rewetting,1,4,0,0.7,0.69,6.17,3.21,24.04,13.33055252
+Col 2 3/29 ,after,Immediately after rewetting,2,4,0,1.25,0.33,8.83,2.17,20.84,10.40516172
+Col 3 3/29 ,after,Immediately after rewetting,3,4,1,0.4,0.4,6.57,4.14,26.63,15.52779259
+Col 4 3/29 ,after,Immediately after rewetting,4,4,0,0.76,0.46,8.03,2.45,22.14,11.08001345
+Col 5 3/29,after,Immediately after rewetting,5,4,1,0.27,0.23,6.6,3.9,26.71,14.58466331
+Col 6 3/29 ,after,Immediately after rewetting,6,4,1,0.47,0.29,5.15,3.72,25.59,14.54630219
+Col 7 3/29 ,after,Immediately after rewetting,7,4,0,1.11,0.43,6.08,2.72,24.22,11.23758669
+Col 1 4/11 ,before,Prior to drain,1,5,0,1.79,0.03,12.8,2.28,16.5,13.81414228
+Col 2 4/11 ,before,Prior to drain,2,5,0,0.26,0,12.8,2.24,16.22,13.79094535
+Col 3 4/11 ,before,Prior to drain,3,5,1,0.45,0.3,11.7,2.15,18.42,11.69842133
+Col 4 4/11 ,before,Prior to drain,4,5,0,0.96,0.24,13.1,2.03,16.5,12.27656824
+Col 5 4/11,before,Prior to drain,5,5,1,0.4,0.27,12,2.41,17.56,13.74506271
+Col 6 4/11 ,before,Prior to drain,6,5,1,0.89,0.2,11.9,2.09,17.14,12.17098028
+Col 7 4/11 ,before,Prior to drain,7,5,0,1.56,0,12.5,2.12,16.56,12.77855741
+Col 8 4/11 ,before,Prior to drain,8,5,1,0.59,0.47,10.3,2.17,19.35,11.22904027
+Col 1 4/4 ,before,Prior to drain,1,4,0,0.98,0.46,9.86,2.45,17.66,13.86734418
+Col 2 4/4 ,before,Prior to drain,2,4,0,0.97,0.12,9.37,2.24,17.78,12.6218369
+Col 3 4/4 ,before,Prior to drain,3,4,1,0.24,0.22,8.4,2.4,19.91,12.06050532
+Col 4 4/4 ,before,Prior to drain,4,4,0,1.01,0.45,10.2,2.22,16.95,13.10652752
+Col 5 4/4,before,Prior to drain,5,4,1,0.81,0.18,9.06,2.14,19.23,11.14779623
+Col 6 4/4 ,before,Prior to drain,6,4,1,0.24,0.22,8.25,2.06,18.6,11.06096556
+Col 7 4/4 ,before,Prior to drain,7,4,0,0.3,0.29,9.02,2.18,17.86,12.1993421
+Col 8 4/4 ,before,Prior to drain,8,4,1,0.56,0.18,6.99,2.3,20.61,11.15692275
+Col 1 4/5 ,after,Immediately after rewetting,1,5,0,1.4,0.5,10.2,2.2,16.99,12.95937608
+Col 2 4/5 ,after,Immediately after rewetting,2,5,0,1.2,0.34,10.9,2.19,16.5,13.29974063
+Col 3 4/5 ,after,Immediately after rewetting,3,5,1,0.13,0.12,8.99,3.28,21.34,15.37532051
+Col 4 4/5 ,after,Immediately after rewetting,4,5,0,0.49,0.49,10.7,2.3,17.48,13.13893032
+Col 5 4/5 ,after,Immediately after rewetting,5,5,1,0.14,0.13,9.44,3.34,21.5,15.54073625
+Col 6 4/5,after,Immediately after rewetting,6,5,1,0.33,0.3,8.37,3.64,23.66,15.36361422
+Col 7 4/5 ,after,Immediately after rewetting,7,5,0,0.68,0.27,10.5,2.29,17.86,12.84256436
+Col 8 4/5 ,after,Immediately after rewetting,8,5,1,0.31,0.16,6.69,3.74,20.95,17.83461742
+Col 1 3/28,before,Prior to drain,1,3,0,0.56,0.56,7.91,3.87,20.17,19.18062772
+Col 2 3/28,before,Prior to drain,2,3,0,0.57,0.34,8.35,3.05,19.56,15.56805755
+Col 3 3/28,before,Prior to drain,3,3,1,0.42,0.11,6.51,3.28,22.33,14.71239657
+Col 4 3/28,before,Prior to drain,4,3,0,0.32,0.17,10.5,2.8,19.22,14.55220053
+Col 5 3/28,before,Prior to drain,5,3,1,0.42,0.12,9.16,3.09,21.01,14.69290877
+Col 6 3/28,before,Prior to drain,6,3,1,0.26,0.09,8.06,3.37,22.22,15.15661599
+Col 7 3/28,before,Prior to drain,7,3,0,1.52,0.3,7.77,3.24,21.21,15.29766429
+Col 8 3/28,before,Prior to drain,8,3,1,1.84,0.14,3.42,3.85,25.04,15.39092378
+Col 1 3/22,after,Immediately after rewetting,1,3,0,0.62,0.54,7.95,3.39,20.26,16.71333548
+Col 3 3/22,after,Immediately after rewetting,3,3,1,1.19,0.27,5.14,6.17,27.15,22.72145693
+Col 4 3/22,after,Immediately after rewetting,4,3,0,0.55,0.4,5.47,3.58,23,15.57440408
+Col 5 3/22,after,Immediately after rewetting,5,3,1,0.72,0.1,6.18,5,24.01,20.80986248
+Col 6 3/22,after,Immediately after rewetting,6,3,1,0.94,0.11,5.11,5.51,25.58,21.547465
+Col 8 3/22,after,Immediately after rewetting,8,3,1,2.15,0.32,3.79,6.65,27.62,24.05914831
+Col 1 3/21,before,Prior to drain,1,2,0,1.19,0.43,9.08,3.55,19.74,17.97603697
+Col 2 3/21,before,Prior to drain,2,2,0,1.01,0.33,7.44,3.41,21.69,15.72099062
+Col 3 3/21,before,Prior to drain,3,2,1,0.77,0.26,5.13,5.49,25.13,21.85253169
+Col 4 3/21,before,Prior to drain,4,2,0,0.36,0.11,6.58,3.37,22.44,15.00368012
+Col 5 3/21,before,Prior to drain,5,2,1,0.41,0.2,7.12,3.09,21.53,14.36768375
+Col 6 3/21,before,Prior to drain,6,2,1,0.35,0.17,6.5,3.41,22.73,15.01250733
+Col 7 3/21,before,Prior to drain,7,2,0,0.53,0.2,6.06,3.62,22.53,16.06130063
+Col 8 3/21,before,Prior to drain,8,2,1,0.29,0.19,8.08,3.02,19.96,15.12443475
+Col 1 3/15,after,Immediately after rewetting,1,2,0,0.68,0.47,4.66,3.76,26.08,14.40971564
+Col 2 3/15,after,Immediately after rewetting,2,2,0,0.68,0.42,8.26,3.28,22.56,14.5514828
+Col 3 3/15,after,Immediately after rewetting,3,2,1,1.5,0.36,5.75,6,28.31,21.19965932
+Col 4 3/15,after,Immediately after rewetting,4,2,0,0.67,0.39,7.8,3.47,23.21,14.95813623
+Col 5 3/15,after,Immediately after rewetting,5,2,1,0.99,0.33,6.15,5.94,28,21.20695986
+Col 6 3/15,after,Immediately after rewetting,6,2,1,0.76,0.22,7.68,4.96,25.51,19.42396284
+Col 7 3/15,after,Immediately after rewetting,7,2,0,0.42,0.24,7.4,3.34,22.6,14.79334542
+Col 8 3/15,after,Immediately after rewetting,8,2,1,1.67,0.35,3.99,3.65,30.03,12.13820493
+COL1 COMP 10/31,after,Immediately after rewetting,1,36,0,,,16.42,1.38,15.24,
+COL2 COMP 10/31,after,Immediately after rewetting,2,36,0,,,15.72,1.19,15.32,
+COL3 COMP 10/31,after,Immediately after rewetting,3,36,1,,,12.09,2.24,23.57,
+COL4 COMP 10/31,after,Immediately after rewetting,4,36,0,,,14.96,1.37,16.47,
+COL5 COMP 10/31,after,Immediately after rewetting,5,36,1,,,12.45,2.26,22.94,
+COL6 COMP 10/31,after,Immediately after rewetting,6,36,1,,,13.55,1.91,21.12,
+COL7 COMP 10/31,after,Immediately after rewetting,7,36,0,,,15.55,1.50,15.51,
+COL8 COMP 10/31,after,Immediately after rewetting,8,36,1,,,10.75,2.24,26.97,
+Col 1 Comp 11/6,before,Prior to drain,1,36,0,,0.18,13.00,2.45,17.91,
+Col 2 Comp 11/6,before,Prior to drain,2,36,0,,0.97,13.00,2.50,17.60,
+Col 3 Comp 11/6,before,Prior to drain,3,36,1,,0.19,11.70,2.71,19.58,
+Col 4 Comp 11/6,before,Prior to drain,4,36,0,,0.66,12.70,2.80,18.76,
+Col 5 Comp 11/6,before,Prior to drain,5,36,1,,0.29,12.00,2.62,19.20,
+Col 6 Comp 11/6,before,Prior to drain,6,36,1,,0.50,12.50,2.30,18.69,
+Col 7 Comp 11/6,before,Prior to drain,7,36,0,,0.95,12.80,2.31,17.65,
+Col 8 Comp 11/6,before,Prior to drain,8,36,1,,0.89,12.20,2.52,19.32,
+Col 1 Comp 11/21,after,Immediately after rewetting,1,39,0,,0.58,14.20,1.86,15.60,
+Col 2 Comp 11/21,after,Immediately after rewetting,2,39,0,,0.13,13.70,1.85,15.61,
+Col 3 Comp 11/21,after,Immediately after rewetting,3,39,1,,0.60,8.00,3.66,28.02,
+Col 4 Comp 11/21,after,Immediately after rewetting,4,39,0,,0.18,13.90,1.71,15.18,
+Col 5 Comp 11/21,after,Immediately after rewetting,5,39,1,,0.35,9.89,2.88,24.02,
+Col 6 Comp 11/21,after,Immediately after rewetting,6,39,1,,0.03,10.50,2.33,22.63,
+Col 7 Comp 11/21,after,Immediately after rewetting,7,39,0,,0.05,13.60,1.70,16.49,
+Col 8 Comp 11/21,after,Immediately after rewetting,8,39,1,,0.58,6.96,3.63,31.37,
+Col 1 Comp 11/28,before,Prior to drain,1,39,0,,0.68,12.70,1.81,16.41,
+Col 2 Comp 11/28,before,Prior to drain,2,39,0,,0.21,12.70,1.69,15.85,
+Col 3 Comp 11/28,before,Prior to drain,3,39,1,,0.46,10.70,1.66,18.63,
+Col 4 Comp 11/28,before,Prior to drain,4,39,0,,0.23,13.00,1.78,16.20,
+Col 5 Comp 11/28,before,Prior to drain,5,39,1,,0.69,11.80,1.65,17.25,
+Col 6 Comp 11/28,before,Prior to drain,6,39,1,,0.49,12.00,1.52,16.80,
+Col 7 Comp 11/28,before,Prior to drain,7,39,0,,0.53,12.20,1.76,17.19,
+Col 8 Comp 11/28,before,Prior to drain,8,39,1,,0.26,11.20,1.93,18.75,
