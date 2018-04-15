@@ -1,0 +1,807 @@
+---
+title: Impact of drying-rewetting cycles on nitrate removal rates in woodchip bioreactors
+author: "Bryan Maxwell, Francois Birgand, Louis Schipper, Laura Christianson, Matt Helmers, Shiying Tian, Mohammed Youssef"
+date: "December 4, 2017"
+output:
+  pdf_document: default
+  word_document: default
+header-includes:
+   - \usepackage{array}
+fig_caption: yes
+link-citations: yes
+csl: est.csl
+bibliography: column.bib
+---
+##Introduction##
+Woodchip bioreactors are used to treat nitrate-nitrogen (NO$_{3}$-N) in drainage water. These BMPs provide a carbon-rich substrate for microbes to reduce aqueous nitrate (NO$_{3}$^-^) to dinitrogen gas N$_{2}$, removing N from drainage water.    Woodchip bioreactors are increasingly used as an agricultural BMP for treatment of N leaving crop fields (@christ2012; @david2016; @woli2010), dairy (@schipper2010) and hog farms (@liu2017), aquaculture units (@lepine2016), and hydroponics operations (@warneke2011). Similar BMPs use carbon fill media to treat runoff in ruban settings; bioretention cells (@chen2013; @kim2003) and regenerative stormwater conveyance (@brown2010) use woodchips or mulch in fill media treating stormwater runoff.A number of factors affect the treatment efficiency of denitrification beds including hydraulic residence time (HRT) (@greenan2009; @hoover2016), temperature (@david2016; @hoover2016), age (@david2016; @robertson2010), bed design (@cameron2011; @christ2011), influent concentration (@lepine2016), and carbon source (@cameron2010), with most denitrification beds not actively managed. Because denitrification rates within the media are controlled by environmental variables (temperature, water chemistry) or media characteristics (age, source), reaction kinetics are mostly beyond the control of managers or engineers post-installation. 
+
+There is evidence that there are management options to increase denitrification rates within these systems. A number of studies have looked at the effect of drying-rewetting (DRW) cycles in soils on the rates of metabolic processes occurring within them (@beare2009; @xiang2008; @ruser2006; @miller2005; @borken2009). Ruser et al. (2006) saw an increase in N$_{2}$O production by several orders of magnitude following rewetting of dried soils with low organic carbon content (1.4-1.7%); N$_{2}$O production increased significantly with increasing saturation upon rewetting and derived primarily from denitrification. Miller et al. (2005) found that DRW cycles increased carbon (C) and N release by 18 and 10%, respectively, relative to soil cores (2.4% C content) with constant water content, and the magnitude of N release increased with the frequency of DRW cycles. Gordon et al. (2008) saw DRW cycles reduce microbial biomass and fungal:bacterial ratios, while increasing the amount of microbial activity and dissolved inorganic N in soil leachates. Following a single 96 hr DRW event, Christianson et al. (2017) found that NO$_{3}$ removal in woodchip columns increased from 48 to 90%, eventually declining to 72% after two weeks. Changes in the bacterial and fungal community have also been observed (@gordon2008). There is a lack of research investigating the impact of DRW cycles on carbon and nutrient fluxes in engineered systems with high C media (e.g. woodchip bioreactors).
+
+There is support in the literature for hypothesizing that DRW cycles could incresae nitrate removal rates in woodchip bioreactors. Aerobic conditions increase breakdown of organic material. Increased breakdown produces greater CO$_{2}$ and incomplete products of respiration including dissolved organic carbon (DOC). This DOC is generally lower molecular weight (MW) and more easily used as a carbon donor, particularly for microbes using less efficient electron acceptors (e.g. NO$_{3}$). DRW cycles in woodchip bioreactors would provide aerobic periods to improve carbon bioavailability and increase denitrification rates upon resaturation of woodchips. The following methods and results answer this hypothesis by subjecting woodchip columns to weekly DRW cycles over 10 months. 
+
+##Methods##
+
+###*Experimental design*
+
+A 10-month column experiment was performed at the NCSU Biological and Agricultural Engineering facility from February to December 2017. Experimental units (n=8) consisted of 15.2 cm I.D. polyvinylchloride (PVC) columns filled with aged woodchips. Woodchips were collected from a 5-year-old field bioreactor treating drainage from a hog lagoon sprayfield in Plymouth, NC. Each column was filled with woodchips to a height of 50 cm while tamping with a steel rod to achieve woodchip density closer to field conditions.  Woodchip depth in columns was sized based on the flow rate (0.72-0.90 L/h) of a 8-channel ISMATEC peristaltic pump to provide a target 8 hr HRT to each column. A gravel bed (6 cm depth, 5-10 mm diam.) overlain with plastic mesh (2 mm mesh size) beneath the woodchips was used to provide uniform, upward flow through the column. 
+
+Each of the eight columns was assigned one of two treatments. In this experiment the control treatment (SAT) was constant saturation, constant flow. Water level in the SAT columns remained constant at the level of the overflow, and flow through the SAT columns was uninterrupted over the entire experiment. The second treatment (DRW) was exposed to weekly drying/rewetting cycles. Flow to DRW columns was stopped once a week by disconnecting the inflow lines. After stopping flow the column was drained rapidly (approx. 10-15 min. time to drain) and left unsaturated for a period of 8 hours. The duration of unsaturated conditions was based off of preliminary lab experiments showing drain times as  short as 6 hours resulted in increased nitrate removal rates. After DRW columns were left unsaturated for 8 hours, flow to DRW columns was reestablished by reconnecting the inflow line. Overflow occurred roughly 8 hours after restarting flow. In this experiment, a single DRW cycle refers to each draining event and subsequent rewetting. All columns received constant flow for 10 months, other than in DRW columns while drained.  
+
+Columns were fed decholorinated (Omnipure K5626-JJ filters) tap water mixed with KNO$_{3}$ (~20 mg NO$_{3}$-N/L) fed from a 300 gal. stock tank. Two stock tanks were used such that one tank could be mixed, dechlorinated, and degass to lower DO levels while still providing uninterrupted flow to columns. Flow rates to each column were measured 2-3x daily by collecting outflow in 9 L jugs for a period of 5-12 hours and measuring outflow volume with a graduated cylinder.  During the first three weeks (Periods 0a, 0b, and 0c) all columns received the SAT treatment (continuous flow, constant saturation) to determine variability between columns prior to applying the DRW treatment. After the first three weeks, columns were ranked according to N removal rates and columns with the first, third, fifth, and seventh highest removal rates were assigned the SAT treatment. Collected data were given a Period number corresponding to the number of prior DRW cycles (e.g. Period 2 for data collected after the second and prior to the third DRW cycle).
+
+###*Water chemistry analysis*
+
+Stock tank and column outflow water chemistry were measured every two hours using a multiplexed pumping system (MPS) used for continuous water chemistry monitoring in small volume applications (Maxwell et al., in prep). Water chemistry was measured optically using an s::can spectrophotometer, previously shown to accurately estimate NO$_{3}$ and DOC using absorbance values (@etheridge2014; @birgand2016; @vaughan2017). During measurements, water was pumped (0.2 mL/s) from the top 3 cm of the saturated media in each column. To minimize cross-contamination between columns the first 5 mL of sample volume were purged to waste, then pumping 20 mL of sample volume (>18x cuvette volume) for spectrophotometric analysis  to a 1.1 mL quartz cuvette, according to validated sampling procedures for the small volume MPS (Maxwell et al., in prep).  Low pump rate (0.2 mL/s) and sample volume (25 mL every 2 hr.) during sampling prevented significantly affecting column hydraulics. Measured sample volumes were then purged to waste or collected for lab analysis. Forty sample volumes analyzed by the spectrophotometer were submitted for lab analysis to calibrate the probe for this experiment.
+
+During select Periods composite outflow samples were collected to quantify water chemistry parameters for which the spectrophotometer has low predictive accuracy. Composite samples were taken by collecting outflow from each column over 1.5 hours (~1.0 L).  Grab samples were collected from all columns immediately after rewetting of drained columns and again prior to subsequent drain. Grab samples were analyzed for NO$_{3}$ (EPA Method 353.2), NH$_{4}$ (EPA Method 351.2), TN (Standard Methods 4500-Norg B, Bran & Leubbe Autoanalyzer III), DOC and TC (EPA415.1 with Teledne Tekmar Apollo 9000, 0.45 µm filter). Composite samples were collected during Periods 2, 3, 4, 5, 36, and 39. 
+
+Temperature and dissolved oxygen (DO) of outflow were measured hourly using Presens data logger and dipping probes. Temperature and DO sensors were inserted through the top of the column and fixated such that the sensor tips were at least 2 cm below the surface of woodchip media, per manufacturer's specifications. A manual two-point calibration was performed using 0 and 100% air saturation (a.s) standards. A 0% a.s. standard was made by dissolving 1 g Na$_{2}$SO$_{3}$ and 1 mg CoCl$_{2}$ in 1 L DI water, mixing gently, and left to stand for 30 min. A 100% a.s. standard was made by vigorously bubbling tap water with an air stone and bubbler for 30 min. and left to stand for 30 min. 
+
+###*Flow and temperature*
+
+All columns received continuous flow for 287 days. Temperature and water chemistry were measured at high frequency during Days 0-97, 147-171, and 252-287, or 165 days (Supp. Figure 6). Flow rates were generally within 0.1-0.3 mL/s for all columns, with median flow rates of 0.18 and 0.17 mL/s (~0.6 L/h) for DRW and SAT columns. For the first five weeks flow rates were highly variable, particularly for Columns 1 & 8 where compression by the peristaltic roller was the least consistent and had to be repaired. Day to day flow rates varied little. Sudden decreases in flow rates were caused by variable rates of tubing wear and microbial build-up; data collected when flow decreased by >50% in 24 hrs was removed. During Periods 19-39 peristaltic lines for all columns were replaced simultaneously once a week to minimize degree of tubing wear and biofilm accumulation, with flows during these periods being the most stable. 
+
+Temperature in the columns (Supp. Figure 6) fluctuated significantly during the first half of the experiment (Day 0 - Day 97) due to HVAC issues at the NCSU lab facility. During this period temperature ranged from 19.2 - 29.0 °C. HVAC replacement after Day 140 greatly reduced temperature variability in Periods 19-39. Mean temperature differences between individual columns was less than 0.4 °C and differences did not exceed 1.0 °C. Temperature differences between treatment groups during all periods was not statistically significant. 
+
+###*Statistical analysis* 
+
+To normalize by flow, NO$_{3}$-N removal rate, rather than outlet concentrations., was used as a response for comparing differences between treatment groups. Volumetric removal rate for each column was calculated as the difference between inlet and outlet concentrations times the flow rate over the woodchip-filled column volume (0.009 m^3^) for units of g N/m^3^/d. Mixed linear model analysis (SAS Proc MIXED) was performed on data collected from both columns to determine the treatment effect on nitrate removal rates, as well as the effect of Period number and Period day, or the number of days since rewetting of DRW columns. Period number rather than time was used as a variable to reduce autocorrelation of high-frequency measurements. The regression analysis accounted for repeated measurements for each column by specifying column as a subject with repeated measures over time (repeated Day/subject=Column) with the covariance structure selected by minimizing the model AIC/BIC. Random effects were included to control for unaccounted error (Column within Treatment, and Column/Treatment within Period). Treatment effect within each period was determined using least squares means (lsmeans Treatment*Period / slice=Period) with a Tukey correction for multiple-comparisons. The full SAS code can be found in Supplemental Information.   
+install.packages("devtools")
+devtools::install_github("rstudio/rmarkdown")
+
+```{r setup, include=FALSE,echo=FALSE}
+#chooseCRANmirror(graphics=FALSE, ind=1)
+#knitr::opts_chunk$set(echo = TRUE)
+
+major=read.table("G:/PHDwork/Bioreactor/ColumnStudy/scanfiles/RMarkdown_Aug.csv",header=TRUE,sep=",")
+major$Treatment=as.factor(major$Treatment)
+major$Column=as.factor(major$Column)
+major$PeriodDay=floor(major$PeriodTime)
+daylim=295
+major=subset(major,Day<daylim)
+major$Percred=100*(major$MeanTank-major$NO3calib)/major$MeanTank
+height=4
+width=6
+
+require(pander)
+require(gridExtra)
+require(ggplot2)
+#require(ggpubr)
+#require(ggsignif)
+require(xts)
+require(citr)
+periods=c(0,0.1,0.2,1,2,3,4,5,6,7,8,9,10,11,19,20,21,22,35,36,37,38,39)
+lay_out = function(...) {    
+  x <- list(...)
+  n <- max(sapply(x, function(x) max(x[[2]])))
+  p <- max(sapply(x, function(x) max(x[[3]])))
+  grid::pushViewport(grid::viewport(layout = grid::grid.layout(n, p)))    
+  
+  for (i in seq_len(length(x))) {
+    print(x[[i]][[1]], vp = grid::viewport(layout.pos.row = x[[i]][[2]], 
+                                           layout.pos.col = x[[i]][[3]]))
+  }
+} 
+drains=seq(21.583,300,7)
+plotmargin=c(.1,.05,.1,0.05)
+axis.title=12
+legend.text=10
+axis.text=10
+dec=2
+  nsmall=2
+cbbPalette=c("#000000", "#009E73", "#e79f00", "#9ad0f3", "#0072B2", "#D55E00", "#CC79A7", "#F0E442")
+too=major[,c(3,22,25,30,31,33)]
+too=na.omit(too)
+kick=subset(too,Day<287)
+stick=subset(too,Period>1 & Period<40)
+#par(mar=c(4,5,4,3))
+#plot(stick$VolumetricRateDOC,stick$VolumetricRate ,ylim=c(3,20),xlim=c(0,1.5),                     #Compare predicted and lab values of NO3-N
+#cex=0.6,pch=1,ylab="",xlab="",cex.axis=2)
+#mtext(side=1,text="DOC Production",line=3,cex=2)
+#mtext(side=2,text="NO3 Removal",line=3,cex=2)
+#DOCreg1<-lm(stick$VolumetricRate~stick$VolumetricRateDOC)                                         #Linear regression of predicted and lab NO3-N values
+#abline(DOCreg1,lwd=1.5)
+#summary(DOCreg1)    
+stick=subset(stick,Period!=22)
+stick=subset(stick,Period!=18)
+stick=subset(stick,Period!=34)
+
+hack=subset(stick,Period>34 & Period<40)
+write.table(kick,"F:/PHDwork/Bioreactor/ColumnStudy/scanfiles/Allperiods.csv",
+            sep=",",row.names=FALSE)
+write.table(stick,"F:/PHDwork/Bioreactor/ColumnStudy/scanfiles/Sigperiods.csv",
+            sep=",",row.names=FALSE)
+write.table(hack,"F:/PHDwork/Bioreactor/ColumnStudy/scanfiles/Stableperiods.csv",
+            sep=",",row.names=FALSE)
+stay=subset(major,Period>18 & Period<23)
+a=stay
+a=a[which(is.finite(a$HRT)),]
+a=subset(a,HRT<20)
+d=subset(a,Treatment==1)
+w=subset(a,Treatment==0)
+b=mean(d$NO3calib,na.rm=TRUE)
+#b2=sd(a$TankDO,na.rm=TRUE)
+c=mean(w$NO3calib,na.rm=TRUE)
+#c2=sd(a$TankNO3calib,na.rm=TRUE)
+#a=subset(a,Treatment==1)
+#mean(a$VolumetricRate,na.rm=TRUE)
+#min(a$VolumetricRate,na.rm=TRUE)
+
+```
+
+
+
+###*Water chemistry*
+
+Dissolved oxygen (DO) in the effluent was generally <0.1 mg/L for all columns over the entire experiment and did not exceed 0.25 mg/L (Supp. Figure 7). During DRW cycles DO rose to 7-9 mg/L in DRW columns as the column was drained. Upon rewetting DO quickly fell below 0.25 mg/L <1 hr of overflow at the outlet. Instances outside of DRW cycles where DO rose above 0.25 mg/L aligned with times when pump tubing became disconnected and water level in the column temporarily fell, exposing the DO sensor to unsaturated media. Q$_{95}$ values for DO conc. for all columns other than 6 (DRW), 7 (SAT), and 8 (DRW) were <0.1 mg/L. Q$_{95}$ values for DO conc. for columns 6, 7, and 8 were 0.20, 0.11, and 0.14 mg/L, more likely higher due to sensor position or calibration rather than true biogeochemical differences from the rest of the columns. 
+
+The multiplexed sampling system captured 13,100 data points for NO$_{3}$-N conc. over the experiment, or roughly 1,600 - 1,700 data points per column. Column effluent varied considerably from 0.0 - 19.5 mg NO$_{3}$-N/L (Fig. 2). Outlet conc. was affected by flow rate and temperature, with the most variability in both factors during Days 0 - 97. After initiating flow with KNO$_{3}$-enriched water on Day 0 outlet conc. rose quickly and peaked within 36-45 hr. During Day 0 - 98 (Periods 0 - 11) there appeared to be several time periods with distinct trends in outlet NO$_{3}$-N. From Day 1 - 11 (Period 0), outlet NO$_{3}$-N conc. were high with very little apparent removal. After this initial period there was a rapid decrease in outlet NO$_{3}$-N between Days 11 - 20 (Period 0), with concentrations continuing to decrease through Days 30-34. Mean outlet NO$_{3}$-N through Days 20 - 50 (Periods 1 - 4) were 6.3 and 5.7 mg/L for SAT and DRW columns, respectively. NO$_{3}$-N increased through Days 50-70 (Periods 5-7). While there was significant variability in conc. through Days 70-98, there did not appear to be a directional trend in the time series over this period, in contrast to Days 11-20 and 50-70. Sudden NO$_{3}$ decreases in all columns occurred around Days 76 & 96, occurring almost simultaneously with observed temperature increases. From Days 50-98 mean NO$_{3}$-N conc. were 13.3 and 11.6 mg/L for SAT and DRW columns. During Days 147-171 (Periods 19-22) variability in outlet conc. greatly decreased, with no apparent trend over time in mean conc.; mean NO$_{3}$-N conc. for SAT and DRW columns during this time were 16.7 and 14.7 mg/L. 
+
+Composite samples were analyzed for TKN, TAN, NO$_{3}$, DOC, and TC during selected periods (Figure 4). TKN conc. in all composite samples did not exceed 2 mg/L, with mean TKN conc. of 0.8 and 0.7 mg/L for SAT and DRW groups and few significant differences between groups within Periods. TAN conc. in all composite samples did not exceed 0.8 mg/L, with mean TAN conc. of 0.3 and 0.2 mg/L for SAT and DRW groups and few significant differences between groups within Periods. Neither TKN nor TAN results showed patterns or consistent significant differences in effluent between groups, nor changed dramatically from the inlet to outlet. 
+
+NO$_{3}$-N conc. in composite samples followed similar trends as the continuous monitoring; NO$_{3}$-N was lower in DRW columns, but not statistically significant until Period 4. There were significantly and consistently greater DOC and TC in DRW column effluent (Figure 2). DOC mean conc. immediately after rewetting was consistently greater in DRW columns by 0.5-2.0 mg/L, although these differences decreased and were not significant prior to subsequent drain. Mean TC conc. was greater in DRW columns by 2.3-3.3 mg/L immediately after rewetting, with differences decreasing and, other than Periods 2 & 39, still significant after 7 days prior to drain. DOC and TC in composite samples, both immediately after rewetting and prior to subsequent drain, decreased over the experiment with the highest DOC/TC conc. in Periods 2 & 3.  
+
+
+```{r,echo=FALSE,warning=FALSE,fig.height=height,fig.width=width,fig.cap="NO$_{3}$-N concentrations at the column outlet over the experiment for SAT and DRW columns. Significant variability in flow and temperature over the first 100 days resulted in highly variable concentrations of both nutrients. Grey vertical bars denote periods when columns were drained."}
+tankerNO3=subset(major,Column==1)
+#flight=subset(major,Column==4 | Column==8)
+axis.title=38
+legend.text=28
+axis.text=28
+
+p=ggplot(data=major,aes(x=Day,y=NO3calib,colour=Treatment,shape=Treatment))+
+  geom_vline(xintercept=drains,linetype="solid",color="grey40",size=2,alpha=0.3)+
+  geom_point(data=major,aes(x=Day,y=NO3calib,colour=Treatment,shape=Treatment),size=3,stroke=1.3)+
+  theme_bw()+
+  theme(plot.margin=unit(plotmargin,"cm"))+
+  scale_shape_manual(name=expression("[NO"[3]*"]"['out']*""),breaks=c(0,1),labels=c("SAT","DRW"),values=c(16,1))+
+  scale_color_manual(name=expression("[NO"[3]*"]"['out']*""),breaks=c(0,1),labels=c("SAT","DRW"),values=c(cbbPalette[5],cbbPalette[3]))+
+  guides(shape = guide_legend(override.aes = list(size = 3)))+
+  theme(axis.title=element_text(size=axis.title),axis.text=element_text(size=axis.text))+
+  theme(legend.text=element_text(size=legend.text),legend.title=element_text(size=legend.text))+
+  labs(y=expression('[NO'[3]*'] (mg N L'^-1*')'))+
+  geom_point(data=tankerNO3,aes(x=Day,y=TankNO3calib),color="black",show_legend=TRUE,size=2)+
+  geom_point(data=tankerNO3,aes(size="[NO3]in",shape=NA),colour="black")+
+  guides(size=guide_legend("",override.aes=list(shape=16,size=3)))+
+  scale_size_manual(labels=c(expression("[NO"[3]*"]"['in']*"")),values=c("black"))+
+  guides(color=guide_legend(override.aes=list(colour=c(cbbPalette[5],cbbPalette[3]))))+
+  scale_x_continuous(limits=c(0,daylim))+
+   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    panel.background = element_blank(), axis.line = element_line(colour = "black"),legend.key.size = unit(1.5, 'lines'))
+ggsave(file="bench_query_sort.png",plot=p,device="png",path="G:/PHDwork/Bioreactor/ColumnStudy/Plots/",
+       scale=1,width=30,height=20,units="cm")
+
+
+
+```
+
+```{r,out.width = "100%",echo=FALSE,warning=FALSE,message=FALSE,fig.cap="Results of composite samples taken immediately after rewetting and prior to subsequent drain. TKN and TAN results are not shown. * denotes satistical difference between SAT and DRW means for NO3, DOC, and TC conc."}
+require(png)
+require(knitr)
+img1_path <- "F:/PHDwork/Bioreactor/ColumnStudy/Plots/Composite_plots.png"
+img1 <- readPNG(img1_path, native = TRUE, info = TRUE)
+include_graphics(img1_path)
+```
+
+
+###*NO$_{3}$ removal rates*
+
+NO$_{3}$ removal rates were highly variable during, within and between DRW cycles, and ranged from 0.0 - 41.2 g N/m3/d. Trends over time were similar to those seen in outlet NO$_{3}$-N conc. During Days 1-11 mean removal rates for SAT and DRW groups were 4.5 and 4.4 g N/m3/d, respectively. Removal rates then increased and through Days 20-50 mean removal rates were 21.4 and 23.1 g N/m3/d for SAT and DRW groups, decreasing to 13.6 and 18.5 g N/m3/d during Days 70-98. Peaks in removal rates coincided with large temperature increases on Days 76 and 96. Much of the apparent noise in removal rates during Days 0-97 (Periods 0-11) was caused by greater variability in temperature and column flow rates. There was considerably less noise later in the experiment during Periods 19-22 and Periods 35-39. Mean removal rates were 8.3 and 12.1 g N/m3/d during Periods 19-22, and 8.9 and 12.3 g N/m3/d during Periods 35-39 for SAT and DRW groups. 
+
+While not apparent during Periods 0-11 (likely due to the noise in this early data), NO$_{3}$-N removal rates in DRW columns appeared to decline quickly upon rewetting, while removal in SAT columns remained stable. In Periods 19-22, removal rates in DRW columns during the first 3 days following rewetting were 13.5, 13.3, and 12.5 g N/m3/d; removal rates in the following 3 days for the same periods were 11.2, 11.4, and 10.0 g N/m3/d. This same trend was seen in Periods 35-39. Figure 4 illustrates this phenomenon, with DRW removal rates in Periods 19-39 decreasing with increasing number of days since rewetting.
+
+```{r,echo=FALSE}
+dry=subset(major,Treatment==1)
+wet=subset(major,Treatment==0)
+u=seq(0,95,7)
+t=seq(7,98,7)
+u1=seq(147,170,7)
+t1=c(154,161,168,171)
+u2=seq(252,280,7)
+t2=seq(259,287,7)
+uall=c(u,u1,u2)
+tall=c(t,t1,t2)
+ttest=function(i){
+  #i=0.1
+  dec=2
+  nsmall=2
+  #i=1
+  dry_set=subset(dry,dry$Period==i)
+  wet_set=subset(wet,wet$Period==i)
+  d=na.omit(dry_set$VolumetricRate)
+  w=na.omit(wet_set$VolumetricRate)
+  ttest=t.test(d,w,conf.level=0.95,var.equal=FALSE)
+  p=format(round(ttest$p.value,3),nsmall=nsmall)
+  #low=ttest$conf.int[1]
+  #high=ttest$conf.int[2]
+  meandiff=mean(d)-mean(w)
+  meandiff=format(meandiff,nsmall=nsmall,digits=dec)
+  std.dev=sqrt((var(d)/length(d))+(var(w)/length(w)))
+   std.dev=format(std.dev,nsmall=nsmall,digits=dec)
+   o=match(i,periods)
+   day=paste(uall[o],"-",tall[o])
+  #lowv=format(low,digits=dec,nsmall=nsmall)
+  #highv=format(high,digits=dec,nsmall=nsmall)
+ # lowu=format(round(low,dec),nsmall=nsmall,digits=3)
+ # highu=format(round(high,dec),nsmall=nsmall,digits=3)
+  
+  tester=c(format(mean(d),digits=dec,nsmall=nsmall),
+          format(mean(w),digits=dec,nsmall=nsmall),
+          paste0(meandiff," (",std.dev,")"),day)
+  
+  return(tester)
+}
+periodsy=c("0a","0b","0c",1,2,3,4,5,6,7,8,9,10,11,19,20,21,"22**",35,36,37,38,39)
+now=lapply(periods,ttest)
+nower=do.call(rbind,now)
+colnames(nower)=c('DRW\nVolumetric Rate\n(g N/m³/d)','SAT\nVolumetric Rate\n(g N/m³/d)',
+                     'Difference in\n Means (s.d.)',"Days")
+rownames(nower)=c(paste0("Period ",periodsy))
+  pander(nower[,1:4],caption="Mean volumetric removal rates for SAT and DRW groups across periods. Removal rates over each week following DRW event are used to calculate difference in means (standard deviation). p-value indicates significant difference in group means at 95% confidence. **In Period22, data was collected for the first three days following rewetting only.",keep.line.breaks=TRUE)
+```
+
+
+```{r,echo=FALSE,warning=FALSE,message=FALSE,fig.height=height,fig.width=width,fig.cap="Temperature (A) and volumetric removal rates (B) for both DRW and SAT columns from Periods 0 - 39 (Days 0 - 288). Dashed and solid lines (B) indicate mean removal rates for each period for DRW and SAT columns, respectively."}
+switch=subset(major,Period>1 & Period<40)
+switch$Period=as.factor(switch$Period)
+switch=subset(switch,Period!=18)
+switch=subset(switch,Period!=34)
+
+tough=ggplot(switch,aes(x=Period,y=VolumetricRate))+
+  geom_boxplot(aes(fill=Treatment))+
+  theme_bw()+
+  stat_summary(fun.y=mean,geom="line",aes(group=factor(Treatment),linetype=Treatment),size=1.5,show.legend=FALSE)+
+  theme(axis.title=element_text(size=axis.title),axis.text=element_text(size=axis.text))+
+  theme(legend.text=element_text(size=legend.text),legend.title=element_text(size=legend.text),legend.key.size = unit(4, 'lines'))+
+  scale_fill_manual(labels=c("SAT","DRW"),values=c(cbbPalette[5],cbbPalette[3]))+
+  labs(y=as.expression(bquote("R"[NO3]*" (g N "~m^-3~" "~d^-1~")")))+
+  #annotate("text",x=17,y=35,label="B",size=6)+
+   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    panel.background = element_blank(), axis.line = element_line(colour = "black"))
+rough=ggplot(switch,aes(x=Period,y=Temp))+
+  geom_boxplot(aes(fill=Treatment))+
+  theme_bw()+
+  stat_summary(fun.y=median,geom="line",aes(group=factor(Treatment),linetype=Treatment),size=1.5,color="black",show.legend=FALSE)+
+  scale_fill_manual(labels=c("SAT","DRW"),values=c(cbbPalette[5],cbbPalette[3]))+
+  labs(y=bquote("Temp.,"~degree~"C"))+
+ # theme(axis.title.x=element_blank(),axis.text.x=element_blank(),axis.ticks.x=element_blank())+
+  theme(axis.title=element_text(size=axis.title),axis.text=element_text(size=axis.text))+
+  theme(legend.text=element_text(size=legend.text),legend.title=element_text(size=legend.text))+
+  annotate("text",x=17,y=27,label="A",size=6)+
+   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    panel.background = element_blank(), axis.line = element_line(colour = "black"))
+
+require(cowplot)
+#plot_grid(temp1,rate1,align="v",nrow=2,ncol=1,rel_heights=c(2,5))
+ggsave(file="bench_query_sort.png", plot=tough,device="png",path="F:/PHDwork/Bioreactor/ColumnStudy/Plots/",
+       scale=1,width=40,height=20,units="cm")
+
+
+
+```
+
+```{r, include=FALSE}
+##Creating same plot as above but with breaks for times when monitoring did not take place
+switch=subset(major,Period>1 & Period<12)
+switch$Period=as.factor(switch$Period)
+play=subset(major,Period>18 & Period<23)
+play$Period=as.factor(play$Period)
+last=subset(major,Period>34 & Period<40)
+last$Period=as.factor(last$Period)
+
+rate1=ggplot(switch,aes(x=Period,y=VolumetricRate))+
+  geom_boxplot(aes(fill=Treatment),show.legend=FALSE)+
+  theme_bw()+
+  stat_summary(fun.y=mean,geom="line",aes(group=factor(Treatment),linetype=Treatment),size=1.5,show.legend=FALSE)+
+  
+  scale_fill_manual(labels=c("SAT","DRW"),values=c(cbbPalette[5],cbbPalette[3]))+
+  labs(y=as.expression(bquote("R"[NO3]*" (g N "~m^-3~" "~d^-1~")")))+
+  annotate("text",x=5,y=42,label="B",size=6)+
+   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    panel.background = element_blank(), axis.line = element_line(colour = "black"))+
+  scale_y_continuous(limits=c(0,45))+
+  theme(plot.margin = unit(c(0, 0, 0, 0.8), "cm"))
+temp1=ggplot(switch,aes(x=Period,y=Temp))+
+  geom_boxplot(aes(fill=Treatment),show.legend=FALSE)+
+  theme_bw()+
+  stat_summary(fun.y=median,geom="line",aes(group=factor(Treatment),linetype=Treatment),size=1.5,color="black",show.legend=FALSE)+
+  scale_fill_manual(labels=c("SAT","DRW"),values=c(cbbPalette[5],cbbPalette[3]))+
+  labs(y=bquote("Temp.,"~degree~"C"))+
+  theme(axis.title.x=element_blank(),axis.text.x=element_blank(),axis.ticks.x=element_blank())+
+  annotate("text",x=5,y=27,label="A",size=6)+
+   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    panel.background = element_blank(), axis.line = element_line(colour = "black"))+
+  scale_y_continuous(limits=c(18,28),breaks=c(18,23,28))+
+  theme(plot.margin = unit(c(0, 0, 0.2, 1), "cm"))
+rate2=ggplot(play,aes(x=Period,y=VolumetricRate))+
+  geom_boxplot(aes(fill=Treatment),show.legend=FALSE)+
+  theme_bw()+
+  stat_summary(fun.y=mean,geom="line",aes(group=factor(Treatment),linetype=Treatment),size=1.5,show.legend=FALSE)+
+  
+  scale_fill_manual(labels=c("SAT","DRW"),values=c(cbbPalette[5],cbbPalette[3]))+
+  labs(y=as.expression(bquote("Vol. Rate (g N "~m^-3~" "~d^-1~")")))+
+   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    panel.background = element_blank(), axis.line = element_line(colour = "black"),axis.text.y=element_blank(),axis.title.y=element_blank())+
+  scale_y_continuous(limits=c(0,45))+
+  theme(plot.margin = unit(c(0, 0, 0, 0), "cm"))
+temp2=ggplot(play,aes(x=Period,y=Temp))+
+  geom_boxplot(aes(fill=Treatment),show.legend=FALSE)+
+  theme_bw()+
+  stat_summary(fun.y=mean,geom="line",aes(group=factor(Treatment),linetype=Treatment),size=1.5,show.legend=FALSE)+
+  theme(axis.title.x=element_blank(),axis.text.x=element_blank(),axis.ticks.x=element_blank())+
+  scale_fill_manual(labels=c("SAT","DRW"),values=c(cbbPalette[5],cbbPalette[3]))+
+  labs(y=as.expression(bquote("Vol. Rate (g N "~m^-3~" "~d^-1~")")))+
+   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    panel.background = element_blank(), axis.line = element_line(colour = "black"),axis.text.y=element_blank(),axis.title.y=element_blank())+
+  scale_y_continuous(limits=c(18,28))+
+  theme(plot.margin = unit(c(0, 0, 0.2, 0), "cm"))
+rate3=ggplot(last,aes(x=Period,y=VolumetricRate))+
+  geom_boxplot(aes(fill=Treatment))+
+  theme_bw()+
+  stat_summary(fun.y=mean,geom="line",aes(group=factor(Treatment),linetype=Treatment),size=1.5,show.legend=FALSE)+
+  
+  scale_fill_manual(labels=c("SAT","DRW"),values=c(cbbPalette[5],cbbPalette[3]))+
+  labs(y=as.expression(bquote("Vol. Rate (g N "~m^-3~" "~d^-1~")")))+
+   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    panel.background = element_blank(), axis.line = element_line(colour = "black"),axis.text.y=element_blank(),axis.title.y=element_blank())+
+  scale_y_continuous(limits=c(0,45))+
+  theme(plot.margin = unit(c(0, 0, 0, 0), "cm"))
+temp3=ggplot(last,aes(x=Period,y=Temp))+
+  geom_boxplot(aes(fill=Treatment))+
+  theme_bw()+
+  stat_summary(fun.y=mean,geom="line",aes(group=factor(Treatment),linetype=Treatment),size=1.5,show.legend=FALSE)+
+  theme(axis.title.x=element_blank(),axis.text.x=element_blank(),axis.ticks.x=element_blank())+
+  scale_fill_manual(labels=c("SAT","DRW"),values=c(cbbPalette[5],cbbPalette[3]))+
+  labs(y=as.expression(bquote("Vol. Rate (g N "~m^-3~" "~d^-1~")")))+
+   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    panel.background = element_blank(), axis.line = element_line(colour = "black"),axis.text.y=element_blank(),axis.title.y=element_blank())+
+  scale_y_continuous(limits=c(18,28))+
+  theme(plot.margin = unit(c(0, 0, 0.2, 0), "cm"))
+
+plot_grid(temp1,temp2,temp3,rate1,rate2,rate3,nrow=2,ncol=3,rel_heights=c(2,5),rel_widths=c(8,4,6))
+
+```
+
+
+```{r,echo=FALSE,warning=FALSE,fig.cap="Comparison between SAT and DRW volumetric removal rates, according to the number of days since the previous drain/rewetting event (for Periods 19-39 only). Increased removal rates in DRW columns quickly decreased, eventually stabilizing ~4 days after rewetting. *** indicate significant differences in group means."}
+require(ggplot2)
+library(ggplot2)
+case=subset(major,Period>1 & Period<12)
+case$PeriodDay=as.factor(case$PeriodDay)
+label=c('0'="1",'1'="2",'2'="3",'3'="4",'4'="5",'5'="6",'6'="7")
+case$PeriodDay=factor(case$PeriodDay,levels=c(0,1,2,3,4,5,6))
+case$Treatment=factor(case$Treatment,levels=c(1,0))
+case=subset(case,Treatment==1 | Treatment==0)
+case=case[which(!is.na(case$PeriodDay)),]
+axis.title=22
+legend.text=18
+axis.text=18
+#case=na.omit(case$Treatment)
+z=ggplot(case,aes(x=Treatment,y=VolumetricRate,group=Treatment))+
+  geom_jitter(aes(colour=Treatment),size=1,show.legend=FALSE,alpha=0.6)+
+      geom_boxplot(aes(fill=Treatment),outlier.shape=NA)+
+  theme(axis.text.x=element_blank(),axis.ticks.x=element_blank())+
+  scale_fill_manual(labels=c("DRW","SAT"),values=c(cbbPalette[3],cbbPalette[5]))+
+      scale_color_manual(labels=c("DRW","SAT"),values=c(cbbPalette[3],cbbPalette[5]))+
+  facet_grid(.~ PeriodDay,labeller=as_labeller(label))+
+  labs(y=as.expression(bquote("R"[NO3]*" (g N "~m^-3~" "~d^-1~")")),x="Days since rewetting")+
+   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    panel.background = element_blank(), axis.line = element_line(colour = "black"))+
+  theme(axis.title=element_text(size=axis.title),axis.text=element_text(size=axis.text))+
+  theme(legend.text=element_text(size=legend.text),legend.title=element_text(size=legend.text),legend.key.size = unit(4, 'lines'),
+        strip.text.x = element_text(size = axis.text))
+ggsave(file="bench_query_sort.png", plot=z,device="png",path="G:/PHDwork/Bioreactor/ColumnStudy/Plots/",
+       scale=1,width=30,height=20,units="cm")
+```
+
+
+      
+
+```{r,include=FALSE}
+##Figure for EST article
+label=c('0'="1",'1'="2",'2'="3",'3'="4",'4'="5",'5'="6",'6'="7")
+ggplot(case,aes(x=Treatment,y=VolumetricRate,group=Treatment))+
+  geom_boxplot(aes(fill=Treatment),outlier.shape=NA)+
+   theme(axis.text.x=element_blank())+
+  scale_fill_manual(labels=c("Drying \nRewetting","Saturated"),values=c(cbbPalette[3],cbbPalette[5]))+
+  facet_grid(.~ PeriodDay,labeller=as_labeller(label))+
+  labs(y=as.expression(bquote("Nitrate removal rates")),x="Days since rewetting")+
+   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    panel.background = element_blank(), axis.line = element_line(colour = "black"),
+    legend.text=element_text(size=12,face="bold"),legend.key.size = unit(4, 'lines'),
+    strip.background=element_rect(fill="white",colour="black"),strip.text.x=element_text(size=16))
+axis.title=16
+legend.text=14
+axis.text=14
+take=subset(major,Period>18 & Period <40)
+stake=subset(major,Period>1 & Period<12)
+k=ggplot(data=major,aes(x=Day,y=VolumetricRate,colour=Treatment,shape=Treatment))+
+  geom_point(size=3.5,stroke=1.8,alpha=0.8)+ 
+  theme_bw()+
+  theme(plot.margin=unit(c(0,0,0,1),"cm"))+
+  scale_shape_manual(name="Treatment",breaks=c(0,1),labels=c("Saturated","Drying Rewetting"),values=c(1,1))+
+  scale_color_manual(name="Treatment",breaks=c(0,1),labels=c("Saturated","Drying Rewetting"),values=c(cbbPalette[5],cbbPalette[3]))+
+  #stat_smooth(method = "lm", formula = y ~ poly(x, 2), size = 3,se=F,show.legend=F)+
+  guides(shape = guide_legend(override.aes = list(size = 3)))+
+  theme(axis.title=element_text(size=axis.title),axis.text=element_text(size=axis.text))+
+  theme(legend.text=element_text(size=legend.text),legend.title=element_text(size=legend.text))+
+  #labs(y=as.expression(bquote("Nitrate Removal Rate (g N "~m^-3~" "~d^-1~")")))+
+  labs(y="Nitrate Removal Rate",x="")+
+  guides(color=guide_legend("Treatment",override.aes=list(colour=c(cbbPalette[5],cbbPalette[3]),size=3,alpha=1,stroke=2)))+
+  scale_x_continuous(limits=c(264,283),breaks=c(266,273,280),labels=c("Week 1","Week 2","Week 3"))+
+  scale_y_continuous(limits=c(5,20))+
+   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    panel.background = element_blank(), axis.line = element_line(colour = "black"),axis.text.y=element_blank(),
+    axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0)),legend.key.size = unit(2, 'lines'))
+ggsave(file="bench_query_sort.png", plot=k,device="png",path="F:/PHDwork/Bioreactor/ColumnStudy/Plots/",
+       scale=1,width=40,height=20,units="cm")
+axis.title=24
+legend.text=24
+axis.text=20
+style=subset(take,PeriodDay<7)
+mile=subset(stake,PeriodDay<7)
+w=ggplot(data=style,aes(x=PeriodTime,y=VolumetricRate,colour=Treatment,shape=Treatment))+
+  geom_point(size=2,stroke=1.3)+ 
+  theme_bw()+
+  theme(plot.margin=unit(c(0,1,1,0),"cm"))+
+  scale_shape_manual(name="Treatment",breaks=c(0,1),labels=c("SAT","DRW"),values=c(16,1))+
+  scale_color_manual(name="Treatment",breaks=c(0,1),labels=c("SAT","DRW"),values=c(cbbPalette[5],cbbPalette[3]))+
+  guides(shape = guide_legend(override.aes = list(size = 3)))+
+  theme(axis.title=element_text(size=axis.title),axis.text=element_text(size=axis.text))+
+  theme(legend.text=element_text(size=legend.text),legend.title=element_text(size=legend.text))+
+  labs(y=as.expression(bquote("R"[NO3]~" (g N "~m^-3~" "~d^-1~")")),x="Days since rewetting")+
+  #guide_legend(label.vjust=2)+
+  guides(color=guide_legend("Treatment",override.aes=list(colour=c(cbbPalette[5],cbbPalette[3]),size=3,alpha=1,stroke=2)))+
+  scale_x_continuous(limits=c(0,7),breaks=seq(0,7,1))+
+   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    panel.background = element_blank(), axis.line = element_line(colour = "black"),
+    axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0)),legend.key.size = unit(2, 'lines'),
+    axis.title.x = element_text(margin = margin(t = 20, r = 20, b = 0, l = 0)))
+j=ggplot(data=mile,aes(x=PeriodTime,y=VolumetricRate,colour=Treatment,shape=Treatment))+
+  geom_point(size=2,stroke=1.3)+ 
+  theme_bw()+
+  theme(plot.margin=unit(c(0,1,1,0),"cm"))+
+  scale_shape_manual(name="Treatment",breaks=c(0,1),labels=c("SAT","DRW"),values=c(16,1))+
+  scale_color_manual(name="Treatment",breaks=c(0,1),labels=c("SAT","DRW"),values=c(cbbPalette[5],cbbPalette[3]))+
+  #stat_smooth(method = "lm", formula = y ~ poly(x, 2), size = 3,se=F,show.legend=F)+
+  guides(shape = guide_legend(override.aes = list(size = 3)))+
+  theme(axis.title=element_text(size=axis.title),axis.text=element_text(size=axis.text))+
+  theme(legend.text=element_text(size=legend.text),legend.title=element_text(size=legend.text))+
+  #labs(y=as.expression(bquote("Nitrate Removal Rate (g N "~m^-3~" "~d^-1~")")))+
+  labs(y=as.expression(bquote("R"[NO3]~" (g N "~m^-3~" "~d^-1~")")),x="Days since rewetting")+
+  guides(color=guide_legend("Treatment",override.aes=list(colour=c(cbbPalette[5],cbbPalette[3]),size=3,alpha=1,stroke=2)))+
+  scale_x_continuous(limits=c(0,7),breaks=seq(0,7,1))+
+  #scale_y_continuous(limits=c(5,20))+
+   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    panel.background = element_blank(), axis.line = element_line(colour = "black"),
+    axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0)),legend.key.size = unit(2, 'lines'),
+    axis.title.x = element_text(margin = margin(t = 20, r = 20, b = 0, l = 0)))
+plot_grid(w,j,nrow=1,ncol=2)
+ggsave(file="bench_query_sort.png", plot=j,device="png",path="F:/PHDwork/Bioreactor/ColumnStudy/Plots/",
+       scale=1,width=40,height=20,units="cm")
+```
+
+
+###*ANOVA analysis*
+
+Testing significance of treatment, data prior to Period 2 was removed since this was assumed to be part of the microbial acclimation period; after the second DRW event  removal rates in DRW columns were greater in all subsequent periods. An AR(1) autocorrelation structure proved to be the best covariance structure in the linear mixed model. AIC was minimized when selecting an AR(1) covariance structure, and estimate for the AR(1) covariance paramater was 0.76, indicating evidence of autocorrelation in the repeated measurements on columns. The main effect of Treatment proved to be significant (Table 2), as well as main effect of Period. The interaction of Period with Treatment was not found to be significant, indicating removal rates were impacted by number of DRW events, but treatment effect was not. When using the lsmeans slice option within the mixed model procedure, the DRW treatment was significant at the $$\alpha$$=0.05 level in all Periods 2-39 (Supp. Table 5). 
+
+A separate ANOVA analysis was done on Periods 19-39, when conditions were more stable and the decline in DRW removal rates after rewetting was more clearly observed (Table 3). In this model Treatment, Period Day, and their interaction were all significant, supporting  visual evidence that DRW removal rates declined quickly in Days 1-3 and relatively stable in Days 4-7; estimates for Period Day were 3.5, 2.7, 1.7, 1.3, 0.7, 0.3 and -0.2 for Days 1-7, with Period Day not significant on Days 6 & 7.  When running this same analysis using data from Periods 2-39, both main effects and their interaction were still significant, however estimates for Period Day showed no directional trend.
+
+
+## Discussion
+
+###*Nitrate removal rates*
+
+After 10 months and 39 DRW cycles, data collected from this experiment provides convincing evidence that regular DRW events significantly improved nitrate removal rates in woodchip columns. Low removal rates from Days 0-11 was most likely due to acclimation of the microbial community. Gungor-Demirci and Demirer (-@gungor2004) saw microbial acclimation in an anaerobic digester took 3-5 days until gas production occurred, while Horiba et al. [-@horiba2005] found that steady-state conditions for denitrifiying bacteria in culture did not occur until 80 days after inocculation. While the woodchips were obtained from a field bioreactor, the water chemistry for the experiment was dramatically different from the sprayfield drainage water and would have required an adjustment by the microbial community.  Significant differences between treatments did not occur until after the second DRW event (Period 2), indicating that the microbe community in DRW columns also took time to adjust to periodic unsaturated conditions. 
+
+Equipment error during Period 22 prevented data from being collected over the entire week; during this period data was collected in the first three days only, explaining the apparent increase in DRW mean removal rates for Period 22. In Periods 2-4 mean removal rates were 6-27% higher in DRW columns, relative to SAT. In Periods 19-21, DRW removal rates were greater by 43-44%, and greater by 37-45% in Periods 35-39. The mean difference between treatment groups was relatively constant during Periods 19-39 when flow and temperature were more stable; mean difference between groups ranged from 3.2 - 3.7 g N m^3^ d^-1^ (Table 1), in agreement with the estimate for Treatment effect given by the proc mixed model output (3.36 g N m^3^ d^-1^). Increased difference in group means during Periods 8 and 11 (5.93 and 4.75 g N m^3^ d^-1^, respectively) corresponded to periods where temperature increased significantly, suggesting an increased effect of the DRW treatment at higher temperatures. The significant interaction term between Period and Treatment further supported that treatment effect differed among periods. The lsmeans slice analysis showed that, while overall treatment effect was significant, its significance within individual periods varied. High variability early in the experiment may explain why treatment was not significant in these periods. It is presently unclear why treatment effect was significant during stable Periods 36-39, but not during Periods 19-21 and 35 when there were clear differences between group means.
+
+Outside of initial microbial acclimation (Periods 0a-c), removal rates in both groups appeared to decline over the experiment. Mean removal rates were as high as 20-25 g N m^3^ d^-1^ in Periods 2 & 3, falling to 10-18 g N m^3^ d^-1^ by Periods 10 & 11. While much of the variability in removal rates closely follows changes in temperature, it is unlikely temperature alone was responsible for the overall decrease in removal rates. Mean temperature in Periods 2-11 and Periods 35-39 were 22.8 and 22.4 °C, but mean removal rates in Periods 35-39 were lower by ~7 g N m^3^ d^-1^. It is possible that bioavailability of the woodchips decreased over the 10 month experiment, since organic matter tends to become more recalcitrant as it ages (@cleveland2004;@berg2000). Ghane et al. (-@ghane2018) showed that the lignocellulose index (LCI) of woodchips in a four-year-old woodchip bioreator increased over time, with a higher percentange of the woodchips composed of recalcitrant lignin. 
+
+High resolution data clearly illustrated the decline in nitrate removal rates within 3 days of rewetting, a process that would have been less clear based on infrequent data. This is a significant finding in that increased nitrate removal via DRW cycles should not be overestimated; DRW rates were initially 79-81% greater on the first day after rewetting, but only 24-38% greater from the third to the seventh day, explaining the significant interaction effect between Treatment and Period Day (Table 3). High resolution data was crucial in accounting for variability in outlet concentrations caused by temperature and flow, particularly in the first 100 days when removal rates were highly variable.    
+
+Nitrate removal rates over ten months (7.8 - 41.2 g N m^3^ d^-1^) were comparable to values reported in the literature. Rates were on the intermediate to high end of those reported by Schipper et al. (2010) of 2-22 g N m^3^ d^-1^ across 12 different field denitrification beds, likely due to the higher temperature range in this experiment. Rates were substantially higher than those found in Greenan et al. (2009) in a column experiment with temperature maintained at 10 °C (2.9-4.5 g N m^3^ d^-1^), and comparable to rates seen by Hoover et al. (2016) in a woodchip column study at 20-21.5 °C (10 - 21 g N m^3^ d^-1^). Rates were lower than those seen at similar temperature range (14.6-23.5°C) by Lepine et al. (2016) (32-39 g N m^3^ d^-1^), although in that experiment loading rates were significantly higher and influent had high COD:NO3-N ratios. Removal rates reached during brief temperature increases (up to 41.2 g N m^3^ d^-1^ at 27.4°C) were much greater than the 95% C.I. reported by Addy et al. (2016) for bioreactor removal rates at temperature >16.9°C (3.7-14.9 g N m^3^ d^-1^).
+
+###*TC and DOC production*
+
+Results of the composite samples indicate that columns were a net source of carbon (Fig. 2). Denitrification in bioreactors produces gaseous and aqueous products of complete breakdown of organics (CO$_{2}$ and HCO$_{3}$^-^), as well as DOC from incomplete breakdown (@greenan2009;@robertson2010). Differences in composite samples between treatment groups were much higher immediately after rewetting than prior to the subsequent drain seven days later. Greater TC and DOC concentations in DRW columns immediately after rewetting support previous findings that respiration and C mineralization increase after drying/rewetting cycles (@gordon2008;@fierer2003;@beare2009;@borken2009). DOC made up 27-53% of the differences in TC between groups after rewetting. The fact that differences in DOC became insignificant after seven days may explain why NO$_{3}$ removal rates declined with the number of days since rewetting. Organic breakdown during aerobic conditions likely increased the availability of carbon to fuel denitrification in DRW columns, with denitrification rates decreasing as fresh DOC was leached from the columns. 
+
+Although it is clear from the composite samples more DOC was leached from DRW columns, it is not clear whether the primary driver of increased denitrification is differences in quantity of available carbon, or its quality. Several studies have shown that bioavailability of the electron donor influences denitrification rates (@cameron2010;@dodla2008;@zarnetske2011). While the most immediate suspect for this increased DOC is aerobic breakdown of the woodchips, it is possible that much of the DOC comes from the biofilm on and within the woodchips. Several studies have observed the release of microbial C following DRW cycles in soils, either from mineralized biofilm or from extracellular release of C molecules following change in osmotic pressure (@gordon2008;@kieft1987;@halverson2000).
+
+```{r,include=FALSE}
+ans=subset(major,Day>147 & Day<169)
+ans$Perc=100*(ans$TankNO3calib-ans$NO3calib)/ans$TankNO3calib
+d=subset(ans,Treatment==1)
+w=subset(ans,Treatment==0)
+mean(d$Perc,na.rm=TRUE)
+mean(w$Perc,na.rm=TRUE)
+q=0.2
+Q=q*(3600*24/1000*1000)
+meand=mean(d$VolumetricRate,na.rm=TRUE)
+meanw=mean(w$VolumetricRate,na.rm=TRUE)
+v=0.009
+inlet=20
+a=subset(major,Period==39)
+d=subset(a,Treatment==1)
+w=subset(a,Treatment==0)
+var(d$VolumetricRate,na.rm=TRUE)
+var(w$VolumetricRate,na.rm=TRUE)
+```
+
+
+###*Management considerations*
+
+In Periods 19-39, mean removal rates in DRW columns decreased with number of days since rewetting. Mean NO$_{3}$ removal rates in DRW columns on the first day after rewetting were 81% greater than SAT columns; by the seventh day removal rates were only greater by 30%. While DRW columns were drained, however, no treatment occurred. Over the 8 hour period while columns were drained SAT columns removed 2.71 g N/m3. If we add this amount to the total NO$_{3}$ removed by SAT volumns over the 7 day period following rewetting, total N removal by DRW columns (81.5 g N/m^3^) would still be 37% greater than N removed by SAT columns (59.6 g N/m^3^). Using the relationship between NO$_{3}$ removal rates and days since rewetting, we can look at how this % difference in total N removed would change if we increased DRW frequency (Fig. 5). Draining the columns every 2-3 days, with an 8 hr drain time, would produce the greatest net increase in N removal (47-48%). A one day drain interval would see the lowest improvement (35%), since increased DRW removal rates are offset by treatment lost while columns received no flow. This is assuming NO$_{3}$ removal and DOC production would follow similar behavior if DRW frequency were increased. This is also assuming that while the woodchip bioreactor is unsaturated bypass flow would be occurring. It is important to note that Fig. 5 describes differences in total N treated, not differences in percent reduction. 
+
+Percent reduction (100%*$\Delta$[NO$_{3}$]/[NO$_{3}$]$_{in}$) is commonly reported in bioreactor studies and is a useful metric for water quality planners. From Days 20-50, mean percent reduction of NO$_{3}$ was 66 and 69% for SAT and DRW columns, respectively. From Days 50-98, reduction was 34 and 42% for SAT and DRW columns. From Days 147-169 (Periods 19-21), reduction was 20 and 29%; in Periods 35-39 percent reduction was 29 and 37%. While rates of NO$_{3}$ removal were increased by 25-81% , this translated to a modest increase in percent reduction of <10%. The total N removed over the week (Periods 19-21) increased by 37% in DRW columns, a more relevant metric for reducing total loads. Additionally, percent removal is biased by the inlet concentration (~20 mg N/L in this experiment) and HRT. Considering removal rates during these periods and the mean flow rate of 0.2 mL/s, percent reduction for SAT and DRW columns would be 28 and 40% at an inlet concentration of 15 mg N/L (12% higher reduction), or 42 and 61% at 10 mg N/L (19% higher reduction). Percent reduction would also change depending on HRT. Managers who use DRW cycling to improve performance should consider that significant increases in removal rates may give more modest increases in percent NO$_{3}$ reduction.      
+
+Woodchips with regular DRW cycles would be broken down faster than permanently saturted woodchips, resulting in a shorter lifespan of the bioreactor or time before new woodchips are added. Lifetime of the woodchips would depend on how long and how often woodchips were unsatrated. Moorman et al. (-@moorman2010) saw that wood loss in more frequently unsaturated, shallow woodchips was 62% greater over 9 years than deeper woodchips; the study predicted that the half-life for shallow woodchips was only 13% (4.6 years) of that for deeper woodchips. Ghane et al. (-@ghane2018) also found significantly higher LCI  and lower C:N ratios for woodchips located close to the inlet of a field bioreactor, a zone more frequently exposed to high DO and more DRW cycles. Carbon loss from woodchips would depend on the duration and frequency of DRW cycles. If there are serious concerns over the ability to replace the bioreactor or add additional woodchips before its expected lifespan than this faster rate of depletion may be problematic for water quality managers.
+
+```{r,message=FALSE,echo=FALSE,warning=FALSE,fig.cap="Increases in total NO$_{3}$ removed in DRW columns based on differences in daily means (red) and cumulative increased treatment (black) when considering untreated bypass while DRW columns were drained. The results indicate that increasing the DRW frequency to one drain every 2-3 days would provide the greatest overall improvement (~47%) in total nitrate removal."}
+wild=subset(major,Period>18 & Period<40)
+wild=subset(wild,Period!=36)
+dry=subset(wild,Treatment==1)
+wet=subset(wild,Treatment==0)
+wetmean=mean(wet$VolumetricRate,na.rm=TRUE)
+y=matrix(NA,7,5)
+x=matrix(NA,7,5)
+for(i in c(1:7)){
+  #i=2
+  d=i-1
+  dryd=subset(dry,PeriodDay==d)
+  wetd=subset(wet,PeriodDay==d)
+  #wmean=mean(wetd$VolumetricRate,na.rm=TRUE)
+  if(i==1){
+    dmean=mean(dryd$VolumetricRate,na.rm=TRUE)
+    wmean=mean(wetd$VolumetricRate,na.rm=TRUE)+wetmean*0.33333
+  } else {
+    dmean=mean(dryd$VolumetricRate,na.rm=TRUE)+as.numeric(y[i-1,1])
+    wmean=mean(wetd$VolumetricRate,na.rm=TRUE)+as.numeric(y[i-1,2])
+  }
+  y[i,1]=dmean
+  y[i,2]=wmean
+  y[i,3]=(dmean-wmean)/(wmean)*100
+  #y[i,4]=(mean(dryd$VolumetricRate,na.rm=TRUE)-mean(wetd$VolumetricRate,na.rm=TRUE))/mean(wetd$VolumetricRate,na.rm=TRUE)*100
+  y[i,4]="Cumulative"
+  y[i,5]=i
+  x[i,1]=dmean
+  x[i,2]=wmean
+  x[i,3]=(mean(dryd$VolumetricRate,na.rm=TRUE)-mean(wetd$VolumetricRate,na.rm=TRUE))/mean(wetd$VolumetricRate,na.rm=TRUE)*100
+  x[i,4]="Daily"
+  x[i,5]=i
+}
+y=as.data.frame(y)
+x=as.data.frame(x)
+c=rbind(y,x)
+colnames(c)=c("DRW.mean","SAT.mean","Percdiff","Type","Day")
+c$Percdiff=as.numeric(as.character(c$Percdiff))
+ggplot(c,aes(x=Day,y=Percdiff,shape=Type))+
+  geom_point(size=4,show.legend=TRUE,stroke=2)+
+  geom_smooth(aes(group=Type),span=.7,colour="black")+
+  scale_y_continuous(limits=c(0,100),breaks=seq(0,100,10))+
+  scale_x_discrete(breaks=seq(1,7,1))+
+  scale_shape_manual(values=c(1,16),name="")+
+  theme_bw()+
+  theme(plot.margin=unit(plotmargin,"cm"))+
+  theme(axis.title=element_text(size=axis.title),axis.text=element_text(size=axis.text))+
+  theme(legend.text=element_text(size=legend.text),legend.title=element_text(size=legend.text))+
+  labs(y=expression('Increase in NO'[3]*' Removed (%)'),x="Days since rewetting")+
+   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    panel.background = element_blank(), axis.line = element_line(colour = "black"))
+  
+  #geom_point(data=y,aes(shape=NA,size="Total Eff."),size=4,colour="black")+
+   #guides(color=guide_legend("tat",override.aes=list(shape=16,size=2)))
+
+```
+
+###*Design implications*###
+
+Increased removal rates could reduce HRT and the design hydraulic gradient between inlet/outlet stop logs. For example, using rates seen in SAT columns in later periods, a 53 m^3^ bioreactor would be required to treat 50% of tile drainage (20 mg N/L) at 0.50 L/s. A bioreactor with DRW cycles could achieve the same percent reduction at 0.72 L/s (~20 hr HRT) in the same size reactor. This is important during periods of high flow since bypass flow occurs when tile flow exceeds the hydraulic capacity of the bioreactor. Increasing the hydraulic gradient to increase flow would reduce the amount of untreated bypass. At a peak flow of 0.72 L/s, the first bioreactor would have a total treatment efficiency of 35% (treatment in bioreactor + untreated bypass) while the DRW bioreactor would have 50% treatment efficiency.
+
+Alternatively, increased removal rates would decrease the volume required to achieve a target nitrate removal. In the previous example, increasing removal rates by ~37% could reduce bioreactor volume to 37 m^3^ and achieve the same percent reduction. Whether or not this size reduction would result in a net reduction in cost for the bioreactor is unclear. Christianson et al. (-@christ2012) put the unit cost for two bioreactors in Iowa at \$40-80 m^-3^.  It is unlikely that manual operation of stop logs controlling flow to achieve weekly DRW cycles would result in a cost saving when factoring in labor costs, or that weekly stop log management would even be feasible for farmers. An automated system to manage flow is possible, but may not be cost-effective for smaller bioreactors where size reduction doesn't reduce costs below the capital cost of an automated stop log control system.
+
+Other bioreactor design options could potentially increase DOC leached from woodchips without using labor-intensive water level management. In a study of two lab bioreactors, Hathaway et al. (-@hathaway2017) compared nitrate removal in a "disturbed" bioreactor where the water level was periodically lowered for 3 weeks, relative to a control with fully saturated media. The study found results similar to the present experiment, with volumetric removal rates roughly 80% greater in the half-saturated bioreactor and high initial increases after draining followed by declines in removal rates. In this study, however, percent reduction remained significantly higher (20-40% increase in reduction) over the 3 week period without additional DRW cycles. It is possible that an unsaturated layer of woodchips overlaying a saturated zone would provide a continuous source of leached DOC for enhanced nitrate removal. Practically, this would mean covering field bioreactors with a layer of unsaturated woodchips and not covering the bioreactor with excavated soil, as is common practice. 
+
+
+```{r,include=FALSE,message=FALSE}
+wild=subset(major,Period>18 & Period<22)
+dry=subset(wild,Treatment==1)
+wet=subset(wild,Treatment==0)
+drymean=mean(dry$VolumetricRate,na.rm=TRUE)
+wetmean=mean(wet$VolumetricRate,na.rm=TRUE)
+inletN=20  #g/m3
+flow=1800  ##L/h
+volume=37 ##m3
+percentremoval=100*drymean*volume*(1000/24)/flow/inletN
+percentremoval
+```
+
+```{r,include=FALSE}
+staff=subset(major,Period>1 & Period <12)
+o=ggplot(data=staff,aes(x=VolumetricRateDOC,y=VolumetricRate,colour=Treatment,shape=Treatment))+
+  geom_point(data=major,aes(x=VolumetricRateDOC,y=VolumetricRate,colour=Treatment,shape=Treatment),size=3,stroke=1.3)+
+  theme_bw()+
+  theme(plot.margin=unit(plotmargin,"cm"))+
+  scale_shape_manual(name=expression("[NO"[3]*"]"['out']*""),breaks=c(0,1),labels=c("SAT","DRW"),values=c(16,1))+
+  scale_color_manual(name=expression("[NO"[3]*"]"['out']*""),breaks=c(0,1),labels=c("SAT","DRW"),values=c(cbbPalette[5],cbbPalette[3]))+
+  guides(shape = guide_legend(override.aes = list(size = 3)))+
+  theme(axis.title=element_text(size=axis.title),axis.text=element_text(size=axis.text))+
+  theme(legend.text=element_text(size=legend.text),legend.title=element_text(size=legend.text))+
+  labs(y=as.expression(bquote("R"[NO3]*" (g N "~m^-3~" "~d^-1~")")),x=as.expression(bquote("DOC Leaching (g C "~m^-3~" "~d^-1~")")))+
+  guides(size=guide_legend("",override.aes=list(shape=16,size=3)))+
+  guides(color=guide_legend(override.aes=list(colour=c(cbbPalette[5],cbbPalette[3]))))+
+   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    panel.background = element_blank(), axis.line = element_line(colour = "black"),legend.key.size = unit(4, 'lines'))+
+  scale_x_continuous(limits=c(0,6))
+ggsave(file="bench_query_sort.png", plot=o,device="png",path="F:/PHDwork/Bioreactor/ColumnStudy/Plots/",
+       scale=1,width=30,height=20,units="cm")
+```
+
+
+##Conclusion
+
+Previous studies showed drying-rewetting events in soil were followed by short-term pulses of respiration, mineralization, and denitrification. The results of this study illustrate that denitrification in woodchip bioreactors can be enhanced by DRW cycles with unsaturated periods as short as 8 hours. NO$_{3}$ removal was still stimulated even after 39 weekly DRW events (284 days), showing incresaed performance is likely to be long-term. Increases in NO$_{3}$ removal rates were as high as 81% the first day after rewetting, with mean increases of 36-43% over each week. Increasing the DRW frequency to 2-3 days would remove 47% more NO$_{3}$ than permanently saturated media, although managers or researchers of bioreactors may see much lower increases in percent reduction of NO$_{3}$. DRW cycles in field bioreactors can be made possible through water level management or other innovative design. Field studies of DRW effects on removal rates is necessary, since biogeochemical conditions in unsaturated woodchips buried under soil are likely to be different than those seen in this column study.  
+
+Limited analysis has been given to estimating the effects of temperature, flow, and DOC on NO$_{3}$ removal. The substantial amount of data collected in this experiment makes a clear answer to the hypothesis and a deeper analysis difficult to address in a single paper. A subsequent paper will look at the primary drivers of nitrate removal and the processes responsible for increased rates in DRW columns. Aerobic processes occurring during the brief 8 hour drained period are likely responsible for improved performance. It is likely that production of DOC during aerobic conditions is the primary cause of increased NO$_{3}$ removal rates.  
+
+##Acknowledgements
+
+The authors would like to thank the Environmental Analysis Lab at NCSU for water chemistry analysis. Statistical consulting was provided by Dr. Consuelo Arellano of the NCSU Statistics Department. This work was financially supported by a NIFA USDA grant as part of an international collaboration between researchers at NCSU, Iowa State University, University of Illinois Champaign-Urbana, and University of Waikato in New Zealand. Additional help in data collection was provided by J. A. Yount. 
+
+
+
+
+\pagebreak
+
+```{r}
+
+```
+
+##Supplemental Figures
+
+
+
+
+```{r,echo=FALSE,warning=FALSE}
+county=major
+county=subset(county,is.finite(HRT))
+county=subset(county,HRT<50)
+dry=subset(county,Treatment==1)
+wet=subset(county,Treatment==0)
+ttest=function(i){
+  #i=0.1
+  dec=2
+  nsmall=2
+  #i=1
+  dry_set=subset(dry,dry$Period==i)
+  wet_set=subset(wet,wet$Period==i)
+  d=na.omit(dry_set$Temp)
+  w=na.omit(wet_set$Temp)
+  dmeantemp=format(mean(d),nsmall=nsmall,digits=dec)
+  wmeantemp=format(mean(w),nsmall=nsmall,digits=dec)
+  d1=na.omit(dry_set$HRT)
+  w1=na.omit(wet_set$HRT)
+  dmeanhrt=format(mean(d1),nsmall=nsmall,digits=dec)
+  wmeanhrt=format(mean(w1),nsmall=nsmall,digits=dec)
+  #lowv=format(low,digits=dec,nsmall=nsmall)
+  #highv=format(high,digits=dec,nsmall=nsmall)
+ # lowu=format(round(low,dec),nsmall=nsmall,digits=3)
+ # highu=format(round(high,dec),nsmall=nsmall,digits=3)
+  
+  tester=c(dmeantemp,wmeantemp,dmeanhrt,wmeanhrt)
+  
+  return(tester)
+}
+periodsy=c("0a","0b","0c",1,2,3,4,5,6,7,8,9,10,11,19,20,21,"22**",35,36,37,38,39)
+now=lapply(periods,ttest)
+nower=do.call(rbind,now)
+colnames(nower)=c('DRW mean temp.\n(C)','SAT mean temp.\n(C)',
+                     'DRW mean HRT\n(hr)','SAT mean HRT\n(hr)')
+rownames(nower)=c(paste0("Period ",periodsy))
+  pander(nower[,1:4],caption="Mean temperatures and HRT for SAT and DRW groups across all periods.",keep.line.breaks=TRUE)
+```
+
+
+```{r,echo=FALSE,warning=FALSE,fig.cap="Flow rates and temperature for SAT and DRW columns over the entire experiment. Flow rates from Day 0-100 were highly variable, and stabilized from Day 147-178 by replacing pump tubing more frequently (once a week).Grey vertical bars denote periods when columns were drained."}
+#cow=subset(major,Day<98 | Day>147.5)
+#cow=subset(cow,Day<174)
+cow=major
+cow$Flow[cow$Day>98 & cow$Day<147]=NA
+cow$Flow[cow$Day>171 & cow$Day<252]=NA
+a=c(16,1)
+jack=ggplot(data=cow,aes(x=Day,y=Flow,colour=Treatment))+
+  geom_vline(xintercept=drains,linetype="solid",color="grey40",size=2,alpha=0.3)+
+  geom_point(data=cow,aes(x=Day,y=Flow,colour=Treatment,shape=Treatment),size=1)+
+  theme_bw()+
+  scale_color_manual(name="Treatment",breaks=c(0,1),labels=c("SAT","DRW"),values=c(cbbPalette[5],cbbPalette[3]))+
+ scale_shape_manual(values=c(16,1),guide=FALSE)+
+  theme(plot.margin=unit(plotmargin,"cm"))+
+  theme(axis.title=element_text(size=axis.title),axis.text=element_text(size=axis.text))+
+  theme(legend.text=element_text(size=legend.text),legend.title=element_text(size=legend.text))+
+  labs(y="Flow Rate (mL/s)")+
+  scale_x_continuous(limits=c(0,daylim))
+smack=ggplot(data=cow,aes(x=Day,y=Temp,colour=Treatment))+
+   geom_vline(xintercept=drains,linetype="solid",color="grey40",size=2,alpha=0.3)+
+  geom_point(data=cow,aes(x=Day,y=Temp,colour=Treatment,shape=Treatment),size=1)+
+  theme_bw()+
+  scale_color_manual(name="Treatment",breaks=c(0,1),labels=c("SAT","DRW"),values=c(cbbPalette[5],cbbPalette[3]))+
+   scale_shape_manual(values=c(16,1),guide=FALSE)+
+  theme(plot.margin=unit(plotmargin,"cm"))+
+  theme(axis.title=element_text(size=axis.title),axis.text=element_text(size=axis.text))+
+  theme(legend.text=element_text(size=legend.text),legend.title=element_text(size=legend.text))+
+  labs(y=bquote("Temperature ("~degree~"C)"))+
+  scale_x_continuous(limits=c(0,daylim))
+ 
+
+a=lay_out(list(jack,1,1),
+        list(smack,2,1))
+#require(cowplot)
+#plot_grid(jack,smack,align="v",nrow=2,ncol=1,rel_heights=c(1,1))
+
+#ggplot(data=cow,aes(x=Day,y=NO3calib,colour=Treatment))+
+ #  geom_vline(xintercept=drains,linetype="solid",color="grey40",size=7,alpha=0.3)+
+ # geom_point(data=cow,aes(x=Day,y=NO3calib,colour=Treatment,shape=Treatment),size=4)+
+#  theme_bw()+
+#  scale_color_manual(name="Treatment",breaks=c(0,1),labels=c("SAT","DRW"),values=c(cbbPalette[5],cbbPalette[3]))+
+#   scale_shape_manual(values=c(16,16),guide=FALSE)+
+#  theme(plot.margin=unit(plotmargin,"cm"))+
+#  theme(axis.title=element_text(size=axis.title),axis.text=element_text(size=axis.text))+
+ # theme(legend.text=element_text(size=legend.text),legend.title=element_text(size=legend.text))+
+ # labs(y="Outlet NO3-N (mg/L)")+
+ # scale_x_continuous(limits=c(50,70))
+```
+
+```{r,echo=FALSE,warning=FALSE,fig.cap="Dissolved oxygen at the column outlet for SAT and DRW columns. DO in DRW columns increased briefly when woodchips were unsaturated, and quickly fell <0.25 mg/L upon rewetting. DO in SAT columns briefly rose on several occasions when tubing was disconnected and water level fell below the DO sensor. Grey vertical bars denote periods when columns were drained."}
+tankerDO=major
+#cow$Flow[cow$Day>98 & cow$Day<147]=NA
+#cow$Flow[cow$Day>171 & cow$Day<252]=NA
+ggplot(data=cow,aes(x=Day,y=DO,colour=Treatment))+
+  geom_vline(xintercept=drains,linetype="solid",color="grey40",size=2,alpha=0.3)+
+   geom_point(data=tankerDO,aes(x=Day,y=TankDO),color="black",show_legend=TRUE,size=2)+
+  geom_point(data=cow,aes(x=Day,y=DO,colour=Treatment,shape=Treatment),size=2,stroke=1.3)+
+  theme_bw()+
+  scale_color_manual(name="Treatment",breaks=c(0,1),labels=c("SAT","DRW"),values=c(cbbPalette[5],cbbPalette[3]))+
+ scale_shape_manual(name="Treatment",breaks=c(0,1),labels=c("SAT","DRW"),values=c(16,1))+
+  theme(plot.margin=unit(plotmargin,"cm"))+
+  theme(axis.title=element_text(size=axis.title),axis.text=element_text(size=axis.text))+
+  theme(legend.text=element_text(size=legend.text),legend.title=element_text(size=legend.text))+
+  labs(y="DO (mg/L)")+
+  scale_x_continuous(limits=c(0,daylim))+
+  geom_point(data=tankerDO,aes(size="Tank \nDO",shape=NA),colour="black")+
+  guides(size=guide_legend("",override.aes=list(shape=16,size=3)))+
+  guides(color=guide_legend("Treatment",override.aes=list(colour=c(cbbPalette[5],cbbPalette[3]))))+
+  scale_x_continuous(limits=c(0,daylim))+
+   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    panel.background = element_blank(), axis.line = element_line(colour = "black"))
+
+
+```
+
+```{r,message=FALSE,warning=FALSE,echo=FALSE,error=FALSE,cache=FALSE,showcode=FALSE}
+##Enter SAS Output here
+table3per=c(2,3,4,5,6,7,8,9,10,11,19,20,21,35,36,37,38,39)
+table3num=c(1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1)
+table3f=c(4.30,11.89,17.06,9.11,4.60,13.16,34.50,21.83,14.53,12.79,12.28,8.67,8.37,7.29,11.93,16.18,11.50,9.24)
+#format(table3f,nmall=2)
+table3p=c(0.0407,0.0008,0.0001,0.0032,0.0344,0.0004,0.0001,0.0001,0.0002,0.0005,0.0007,0.0040,0.0047,0.0081,0.0008,0.0001,0.0010,0.0030)
+#format(table3p,nsmall=4,scientific=FALSE)
+f=cbind(table3per,table3num,table3f,table3p)
+colnames(f)=c('Period','Num DF','F Value','Pr < F')
+  pander(f,caption="SAS output for proc mixed model slice testing, testing the significance of Treatment effect within each period (Periods 2-39). The overall model indicated Treatment effect as significant, and Treatment effect was consistently significant within each period. Analysis excluded Period 22 where data was collected in the first 3 days of rewetting only",keep.line.breaks=TRUE)
+```
+
+###*SAS Code*###
+
+Proc mixed data=a ;   
+    class Period Treatment Column Day;   
+    Model VolumetricRate=Period Treatment Period*Treatment;   
+    random Column*Treatment Column*Treatment*Period;   
+    lsmeans Period*Treatment / slice=Period adjust=tukey;   
+    repeated  Day/subject = Column type = ar(1);   
+Run;   
+
+\pagebreak
+
+##References
+
